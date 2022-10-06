@@ -1,3 +1,5 @@
+import json
+
 def fill_prop(json_file_name, score="null", link='"https://amazon.com"', 
                     author='', page_count=0, name='', status='Ready to Start', 
                     type='book', puplisher="", 
