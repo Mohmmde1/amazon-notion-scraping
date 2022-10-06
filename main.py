@@ -1,8 +1,7 @@
-import json
 from objs.notion import Notion
 
-from helper_func import fill_prop
+from utils.utils import fill_prop
         
 file_name = "./json/files/db_create.json"
-Notion.create(data=fill_prop(file_name)
-)
+data_dict = fill_prop(file_name)
+Notion.create(data=data_dict)
