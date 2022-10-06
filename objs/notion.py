@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 from pprint import pprint
-from exceptions import ERORR_400
+from utils.exceptions import ERORR_400
 import requests
 import json
 import os 
@@ -52,8 +52,6 @@ class Notion:
             pprint(json.loads(res.text))
 
 
-    
-    
-        
+
 
 
