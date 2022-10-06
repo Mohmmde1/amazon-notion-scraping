@@ -3,6 +3,7 @@ from utils.utils import fill_prop
 from objs.Book import Book
 from objs.amazon import AmazonScraper
 from pprint import pprint
+
 # url = input("Insert the book's url=> ")
 file_name = "./json/files/db_create.json"
 
