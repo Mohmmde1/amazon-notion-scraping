@@ -1,0 +1,62 @@
+{
+    "parent": {
+        "database_id": "79527245-3b16-4e9b-b596-4683c322e977"
+    },
+    "properties": {
+        "Name": {
+            "title": [
+                {
+                    "text": {
+                        "content": ""
+                    }
+                }
+            ]
+        },
+        "Page count": {
+            "number": 0
+        },
+        "Status": {
+            "select": {
+                "name": "Ready to Start"
+            }
+        },
+        "Score 5": {
+            "select": {
+                "name": "⭐️⭐️⭐️⭐️⭐️"
+            }
+        },
+        "Author": {
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "Some more text with "
+                    }
+                }
+            ]
+        },
+        "Publisher": {
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "Some more text with "
+                    }
+                }
+            ]
+        },
+        "Publishing/Release Date": {
+            "date": {
+                "start": "2021-05-11T11:00:00.000-04:00"
+            }
+        },
+        "Link": {
+            "url": "https://amazon.com"
+        },
+        "Type": {
+            "select": {
+                "name": "book"
+            }
+        }
+    }
+}
