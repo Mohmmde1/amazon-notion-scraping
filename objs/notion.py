@@ -17,6 +17,7 @@ class Notion:
         "Notion-Version": "2022-06-28"
     }
     url = f'https://api.notion.com/v1/databases/{database_id}'
+    
 
     @staticmethod
     def read(headers):

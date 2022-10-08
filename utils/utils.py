@@ -1,9 +1,10 @@
 import json
 
-def fill_prop(json_file_name, book):
+def fill_prop(json_file_name, book, database_id):
         with open(json_file_name, 'r', encoding='utf8') as f:
             data = f.read()
             data_dict = json.loads(data)
+            data_dict["parent"]["database_id"] = database_id
             data_dict["properties"]["Name"]["title"][0]['text']['content'] = book.get_name()
             data_dict["properties"]["Page count"]["number"] = book.get_page_count()
             data_dict["properties"]["Status"]["select"]["name"] = book.get_status()

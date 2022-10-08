@@ -12,7 +12,6 @@ class AmazonScraper:
     def initialize(cls, url):
         cls.url = url
         cls.page = requests.get(url, headers=cls.headers)
-        print(cls.page)
         cls.soup = BeautifulSoup(cls.page.content, "html.parser")
     
     @classmethod
