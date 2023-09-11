@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-from objs.book import Book
+
+from objs.Book import Book
+
 
 class AmazonScraper:
     url = None
@@ -26,7 +28,10 @@ class AmazonScraper:
     @classmethod
     def get_score(cls):
         score = cls.soup.find("span", {"class": "a-icon-alt"})
-        return score.getText()
+        if score:
+            return score.getText()
+        else:
+            return "1"
 
     @classmethod
     def get_link(cls):

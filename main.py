@@ -1,6 +1,6 @@
 from objs.notion import Notion
 from utils.utils import fill_prop
-from objs.book import Book
+
 from objs.amazon import AmazonScraper
 
 URL = input("Insert the book's url=> ")
